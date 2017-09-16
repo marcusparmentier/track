@@ -1,3 +1,20 @@
+body {
+  background-color: #1ABF99;
+}
+
+#jumbo {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
 .formBox {
   padding-bottom: 15px;
 }
@@ -11,5 +28,5 @@
 }
 
 .sugg3 {
-  background-color: blue;
+  background-color: #3498DB;
 }

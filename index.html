@@ -9,36 +9,47 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div class="jumbotron" id="jumbo">
         <h1>Which track is right for you?</h1>
+        <p>Epicodus is a great place to how to program. This short quiz will help lead you in the right direction of possible tracks to take that would fit best for you.</p>
+        <h3>The suggested tracks will be highlighted at the bottom of the page.</h3>
+        <ul>
+          <li>First suggestion: Gold</li>
+          <li>Second suggestion: Silver</li>
+          <li>Third suggestion: Blue</li>
+        </ul>
+        <h4>All questions will be based on a 1 - 6 scale. 1: Strongly disagree and 6: Strongly agree.
       </div>
       <div class="row" id="row1">
         <div class="formBox">
           <form id="formInput">
             <div class="form-group">
               <h3>Question 1</h3>
+              <h4>How artistic would you consider yourself?</h4>
               <select class="form-control" id="q1sel">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
+                <option value="6">1</option>
+                <option value="5">2</option>
+                <option value="4">3</option>
+                <option value="3">4</option>
+                <option value="2">5</option>
+                <option value="1">6</option>
               </select>
             </div>
             <div class="form-group">
               <h3>Question 2</h3>
+              <h4>How much do you value being able to physically see progress from a typical workday?
               <select class="form-control" id="q2sel">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
+                <option value="6">1</option>
+                <option value="5">2</option>
+                <option value="4">3</option>
+                <option value="3">4</option>
+                <option value="2">5</option>
+                <option value="1">6</option>
               </select>
             </div>
             <div class="form-group">
               <h3>Question 3</h3>
+              <h4>How logical do you see yourself?</h4>
               <select class="form-control" id="q3sel">
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -50,6 +61,7 @@
             </div>
             <div class="form-group">
               <h3>Question 4</h3>
+              <h4>Which would you prefer to work for: A large corporation (6) or a small startup (1)?
               <select class="form-control" id="q4sel">
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -61,6 +73,7 @@
             </div>
             <div class="form-group">
               <h3>Question 5</h3>
+              <h4>Any programming involves a large amount of problem solving. Would you consider yourself more of a "hands on" problem solver (1) or a "think it through" problem solver (6)?</h4>
               <select class="form-control" id="q5sel">
                 <option value="1">1</option>
                 <option value="2">2</option>
